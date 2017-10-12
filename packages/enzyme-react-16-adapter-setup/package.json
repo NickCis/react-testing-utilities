@@ -1,7 +1,7 @@
 {
   "name": "enzyme-react-16-adapter-setup",
   "description": "Easy way to setup enzyme for React 16 in Jest.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "license": "MIT",
   "author": "Nicolas Cisco <ncisco@gmail.com>",
   "repository": "git@github.com:nickcis/react-testing-utilities.git",

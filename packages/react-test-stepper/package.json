@@ -1,7 +1,7 @@
 {
   "name": "react-test-stepper",
   "description": "A _HOC_ to step throught actions in order to test a Component.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "license": "MIT",
   "author": "Nicolas Cisco <ncisco@gmail.com>",
   "repository": "git@github.com:nickcis/react-testing-utilities.git",
