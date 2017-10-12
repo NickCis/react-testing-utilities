@@ -6,10 +6,10 @@ Easy way to setup enzyme for React 16 in Jest.
 
 ```bash
 # Using yarn
-yarn add --dev enzyme enzyme-adapter-react-16 enzyme-react-16-adapter-setup
+yarn add --dev enzyme react-test-renderer enzyme-adapter-react-16 enzyme-react-16-adapter-setup
 
 # Or using npm
-npm install --dev enzyme enzyme-adapter-react-16 enzyme-react-16-adapter-setup
+npm install --dev enzyme react-test-renderer enzyme-adapter-react-16 enzyme-react-16-adapter-setup
 ```
 
 ## Setup
