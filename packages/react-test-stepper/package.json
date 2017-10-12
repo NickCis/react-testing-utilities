@@ -1,0 +1,40 @@
+{
+  "name": "react-test-stepper",
+  "description": "A _HOC_ to step throught actions in order to test a Component.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Nicolas Cisco <ncisco@gmail.com>",
+  "repository": "git@github.com:nickcis/react-testing-utilities.git",
+  "homepage": "https://github.com/nickcis/react-testing-utilities/packages/react-test-stepper#readme",
+  "keywords": [
+    "react",
+    "test",
+    "stepper"
+  ],
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "format": "prettier --trailing-comma es5 --single-quote --write `find src -name '*.js'`",
+    "lint": "eslint src",
+    "prepublishOnly": "yarn build",
+    "prebuild": "rimraf dist",
+    "build": "BABEL_ENV=production NODE_ENV=production babel src --out-dir dist"
+  },
+  "peerDependencies": {
+    "react": ">=15"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.8.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "prettier": "^1.7.4",
+    "rimraf": "^2.6.2"
+  }
+}
