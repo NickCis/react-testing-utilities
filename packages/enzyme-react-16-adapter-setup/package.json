@@ -1,0 +1,43 @@
+{
+  "name": "enzyme-react-16-adapter-setup",
+  "description": "Easy way to setup enzyme for React 16 in Jest.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Nicolas Cisco <ncisco@gmail.com>",
+  "repository": "git@github.com:nickcis/react-testing-utilities.git",
+  "homepage": "https://github.com/nickcis/react-testing-utilities/packages/enzyme-react-16-adapter-setup#readme",
+  "keywords": [
+    "react",
+    "enzyme",
+    "adapter",
+    "setup"
+  ],
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "format": "prettier --trailing-comma es5 --single-quote --write `find src -name '*.js'`",
+    "lint": "eslint src",
+    "prepublishOnly": "yarn build",
+    "prebuild": "rimraf dist",
+    "build": "BABEL_ENV=production NODE_ENV=production babel src --out-dir dist"
+  },
+  "peerDependencies": {
+    "enzyme": "^3.0",
+    "enzyme-adapter-react-16": "^1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^4.8.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "prettier": "^1.7.4",
+    "rimraf": "^2.6.2"
+  }
+}
