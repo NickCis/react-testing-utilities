@@ -1,4 +1,4 @@
-# Enzyme React 16 adapter setup
+# React Test Stepper
 
  A _HOC_ to step throught actions in order to test a Component.
 
